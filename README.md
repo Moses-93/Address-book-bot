@@ -32,9 +32,11 @@ Once the bot is running, you can interact with it using the following commands:
 - `!add-birthday <name> <birthday>`: Add or update the birthday for a contact.
 - `!show-birthday <name>`: Show the birthday for a given name.
 - `!remove <name>`: Remove a contact from the address book.
-
 The bot will automatically save the address book data to a pickle file named `address_book.pkl`.
-
+- `!del <name>`: Delete a contact from the address book.
+- `!phone <name>`: Get the phone number
+- `!all <name>`: Get all contacts
+- `!birthdays <name>`: Get all birthdays falling within 7 days
 
 ## License
 
